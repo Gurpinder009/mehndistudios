@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Mehndistudios.com
 
-## Getting Started
+> *Where Culture Meets Creativity*
 
-First, run the development server:
+A production client website built and deployed for a local mehndi artist based in Surrey, British Columbia, Canada. The site showcases bridal and non-bridal henna services, a gallery of past work, client testimonials, and a contact form for session bookings.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Live Site:** [www.mehndistudios.com](https://www.mehndistudios.com)
+
+---
+
+## 👨‍💻 Developer
+
+**Gurpinder Singh Grewal**
+Full-Stack & Mobile Developer — Surrey, BC, Canada
+
+| | |
+|---|---|
+| Portfolio | [gurpinders009.vercel.app](https://gurpinders009.vercel.app) |
+| GitHub | [github.com/Gurpinder009](https://github.com/Gurpinder009) |
+| LinkedIn | [linkedin.com/in/gurpindersingh009](https://linkedin.com/in/gurpindersingh009) |
+| Email | Gurpinders1511@gmail.com |
+
+---
+
+## 📋 Project Overview
+
+Mehndistudios.com is a fully responsive, production-deployed website for a mehndi artist and small business. The project covers end-to-end delivery — from initial design to deployment — and serves as a real client deliverable.
+
+The client required a professional online presence to attract bridal bookings, showcase their portfolio, and make it easy for potential customers to reach out.
+
+---
+
+## ✨ Features
+
+- **Hero Section** — Full-viewport landing with clear call-to-action buttons
+- **Gallery** — Six-item responsive grid showcasing Traditional, Bridal, and Modern designs
+- **Testimonials** — Real client reviews displayed in a clean card layout
+- **Why Us** — Three key value propositions for brides
+- **Services** — Bridal Henna, Non-Bridal Henna, and upcoming Classes & Workshops
+- **Contact Form** — Booking inquiry form with name, email, phone, and message fields
+- **Responsive Design** — Fully mobile-friendly across all screen sizes
+- **SEO Ready** — Meta description and semantic HTML structure
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React |
+| Styling | Tailwind CSS |
+| Deployment | Vercel |
+| Domain | Custom domain via Vercel |
+
+---
+
+## 📁 Project Structure
+
+```
+mehndistudios/
+├── public/
+│   ├── hero1.jpg
+│   ├── hero3.jpg
+│   ├── traditional.jpg
+│   ├── traditional1.jpg
+│   ├── bridal.jpg
+│   ├── bridal1.jpg
+│   ├── modern.jpg
+│   ├── modern1.jpg
+│   └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── NavComponent
+│   │   ├── HeroComponent
+│   │   ├── TestimonialsComponent
+│   │   ├── WhyUsComponent
+│   │   ├── GalleryComponent
+│   │   ├── ServicesComponent
+│   │   ├── ContactComponent
+│   │   └── FooterComponent
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 18+
+- npm or yarn
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Clone the repository
+git clone https://github.com/Gurpinder009/mehndistudios.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Navigate into the project
+cd mehndistudios
 
-## Deploy on Vercel
+# Install dependencies
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Start the development server
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Deploy to Vercel
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel --prod
+```
+
+---
+
+## 📸 Services Offered
+
+| Service | Duration | Notes |
+|---|---|---|
+| Bridal Henna | 3–5 hours | Custom consultation, hand & foot designs |
+| Non-Bridal Henna | 2–6 hours | Festivals, events, group bookings |
+| Classes & Workshops | TBD | Coming soon — one-on-one instruction |
+
+> All henna is made with natural, safe ingredients. Designs typically last 1–3 weeks.
+
+---
+
+## 📞 Client Contact
+
+| | |
+|---|---|
+| Phone | +1 (236) 332-2770 |
+| Email | Mehndistudios@gmail.com |
+| Location | Surrey, British Columbia, Canada |
+
+---
+
+## 📄 License
+
+This project was built as a client deliverable. All content, images, and branding belong to **Mehndi Studios**. The source code structure and development work is credited to **Gurpinder Singh Grewal**.
+
+---
+
+*Built with ❤️ by [Gurpinder Singh Grewal](https://gurpinders009.vercel.app)*
