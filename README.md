@@ -47,7 +47,7 @@ The client required a professional online presence to attract bridal bookings, s
 
 | Layer | Technology |
 |---|---|
-| Framework | React |
+| Framework | NextJs |
 | Styling | Tailwind CSS |
 | Deployment | Vercel |
 | Domain | Custom domain via Vercel |
